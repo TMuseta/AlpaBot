@@ -1,6 +1,6 @@
 import os
 import configparser
-import alpaca_trade_api as tradeapi
+import alpaca_py as tradeapi
 
 from datetime import datetime
 
