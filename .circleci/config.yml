@@ -27,8 +27,6 @@ jobs:
       - python/install-deps
       - python/save-cache
       - run:
-          name: main
-          # This assumes main is installed via the install-package step above
           command: python main.py
           name: main
 
